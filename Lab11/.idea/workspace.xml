@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64d1871b-c886-4583-8eae-86abc1a7bf7a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/BackendFrameworkScala2019.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/Lab9/.idea/Lab9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/Lab9/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/Ticket.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__ch_qos_logback_logback_core_1_2_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_core_1_11_670_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_core_1_11_670_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_kms_1_11_670_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_kms_1_11_670_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_s3_1_11_670_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_aws_java_sdk_s3_1_11_670_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_jmespath_java_1_11_670_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_amazonaws_jmespath_java_1_11_670_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_6_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_6_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_6_7_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_6_7_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_10_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_10_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_5_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_8_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_8_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_8_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__joda_time_joda_time_2_8_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_11_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_11_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_9_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_9_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__software_amazon_ion_ion_java_1_0_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/sbt__software_amazon_ion_ion_java_1_0_2_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Lab11-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Lab11-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Lab11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Lab11.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$672e49a9d73c7d087462$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$672e49a9d73c7d087462.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$672e49a9d73c7d087462.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7d9ea1222f863c7ff4db$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7d9ea1222f863c7ff4db.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7d9ea1222f863c7ff4db.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffad3aaae181d3b2d82$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffad3aaae181d3b2d82.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$9ffad3aaae181d3b2d82.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b5642a99f21279a773e7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b5642a99f21279a773e7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$b5642a99f21279a773e7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$db8ccae24d272d34ab83$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$db8ccae24d272d34ab83.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$db8ccae24d272d34ab83.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f837e43d15cd1390fa50$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f837e43d15cd1390fa50.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$f837e43d15cd1390fa50.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/AmazonS3Config.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AmazonS3Config.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/AmazonS3Config$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/AmazonS3Config$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/dumpStructure/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/src/main/scala/Driver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/src/main/scala/Driver.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/modules/akka-quickstart-scala-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/modules/akka-quickstart-scala-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/modules/akka-quickstart-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/modules/akka-quickstart-scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/active.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7/akka-quickstart-scala/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__ch_qos_logback_logback_classic_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__ch_qos_logback_logback_core_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_9_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_9_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_sksamuel_elastic4s_elastic4s_core_2_12_6_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_sksamuel_elastic4s_elastic4s_http_2_12_6_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_sksamuel_elastic4s_elastic4s_json4s_2_12_6_2_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_sksamuel_exts_exts_2_12_1_60_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__commons_logging_commons_logging_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__joda_time_joda_time_2_9_9_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_apache_httpcomponents_httpasyncclient_4_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_nio_4_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_elasticsearch_client_elasticsearch_rest_client_6_2_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_json4s_json4s_jackson_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_5_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_7_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_typelevel_cats_core_2_12_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_typelevel_cats_kernel_2_12_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_typelevel_cats_macros_2_12_1_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/modules/Lab9-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/modules/Lab9.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$2a67c700579e26669613$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$2a67c700579e26669613.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$2a67c700579e26669613.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$3a16344336140e3f2885$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$3a16344336140e3f2885.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$3a16344336140e3f2885.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$57efaa08da88a688b466$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$57efaa08da88a688b466.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$57efaa08da88a688b466.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$68b390cb7637d6ea65d3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$68b390cb7637d6ea65d3.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$68b390cb7637d6ea65d3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$a39ff4f331463a06a3cc$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$a39ff4f331463a06a3cc.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$a39ff4f331463a06a3cc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$faf1e55d439db5830988$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$faf1e55d439db5830988.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/config-classes/$faf1e55d439db5830988.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/_global/_global/dependencyClasspathFiles/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/Boot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/Boot.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/ElasticSerializer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/ElasticSerializer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/Recipe.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/RecipeManager.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/TicketManager.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/RecipeResponse.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/TicketResponse.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/SprayJsonSerializer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/src/main/scala/com/example/SprayJsonSerializer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Boot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Boot$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Boot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/ElasticSerializer$RecipeHitReader$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/ElasticSerializer$RecipeIndexable$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/ElasticSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/ErrorResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Recipe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Recipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$CreateRecipe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$CreateRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$DeleteRecipe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$DeleteRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$ReadRecipe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$ReadRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$UpdateRecipe$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager$UpdateRecipe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/RecipeResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/SprayJsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/SuccessfulResponse$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/SuccessfulResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/TelegramMessage$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/scala-2.12/classes/com/example/TelegramMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/_global/checkBuildSources/_global/inputFileStamps/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/ssExtractDependencies/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/ssExtractDependencies/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/Lab9/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_9_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_lightbend_akka_akka_stream_alpakka_elasticsearch_2_12_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_http_spray_json_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_12_2_5_25_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_config_1_3_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_3_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__commons_logging_commons_logging_1_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__io_spray_spray_json_2_12_1_3_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_apache_httpcomponents_httpasyncclient_4_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_nio_4_4_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_elasticsearch_client_elasticsearch_rest_client_6_3_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_12_0_8_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_0_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_6_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scalactic_scalactic_2_12_3_0_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/libraries/sbt__org_scalatest_scalatest_2_12_3_0_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/modules/akka-quickstart-scala-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/modules/akka-quickstart-scala.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/scala_compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/project/target/config-classes/$2bb91214dc79125401a2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/active.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$1e787d274d98fe3de0b6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$204025961e4bb60865be.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$48ba94af821a0add7da7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$69f6816ef5a53ca1b26b.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$77f907085c8838bf6f03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/config-classes/$f116891b780c2b61a584.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/default/akka-quickstart-scala-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/scala-2.12/sbt-1.0/resolution-cache/reports/default-akka-quickstart-scala-build-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/ivyConfiguration/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/ivyConfiguration/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/compileIncremental/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/compileIncremental/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/copyResources/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/copyResources/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/dependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/exportedProducts/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/fullClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/internalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/project/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/.history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$$anonfun$receive$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestCreate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestCreateConflict$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestDelete$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestDeleteNotFound$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestRead$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestReadNotFound$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestUpdate$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot$TestUpdateNotFound$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/classes/com/example/actor/TestBot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala$sources/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/default/akka-quickstart-scala_2.12/1.0/resolved.xml.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala$sources-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-compile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-optional.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-optional.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-provided.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-provided.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-runtime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-scala-tool.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-scala-tool.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test-internal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test-internal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/scala-2.12/resolution-cache/reports/default-akka-quickstart-scala_2.12-test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/$global/dumpStructure/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/$global/dumpStructure/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/update/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/update/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/update/$global/streams/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/updateClassifiers/$global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/$global/updateClassifiers/$global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/compile/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/compile/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/compile/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/runtime/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/runtime/managedClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/test/externalDependencyClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/test/externalDependencyClasspath/$global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/test/managedClasspath/$global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab9/akka-quickstart-scala/target/streams/test/managedClasspath/$global/streams/export" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1U0ecPiixDGFzt1dvFLBTix5zVG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/s3/new" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Boot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Boot" />
+      <module name="Lab11" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Boot" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Lab11" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="lab11 [file:/D:/ScalaProjects/BackendFrameworkScala2019/Lab11/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Lab11-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="547524088" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Lab5/akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Lab6/akka-quickstart-scala" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Lab6/backend-framework-lecture-demos" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../TaskSample/backend-framework-lecture-demos" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64d1871b-c886-4583-8eae-86abc1a7bf7a" name="Default Changelist" comment="" />
+      <created>1573818493100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573818493100</updated>
+      <workItem from="1573818496100" duration="3419000" />
+      <workItem from="1574164198394" duration="7644000" />
+      <workItem from="1574256340520" duration="1677000" />
+      <workItem from="1574441678978" duration="1751000" />
+      <workItem from="1574487134469" duration="4001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="18492000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
