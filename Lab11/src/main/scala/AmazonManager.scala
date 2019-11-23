@@ -5,7 +5,7 @@ import Boot.client
 import akka.actor.{Actor, ActorLogging, Props}
 import com.amazonaws.auth.{AWSStaticCredentialsProvider, BasicAWSCredentials}
 import com.amazonaws.regions.Regions
-import com.amazonaws.services.s3.model.{GetObjectRequest, ObjectMetadata, PutObjectRequest}
+import com.amazonaws.services.s3.model.{GetObjectRequest, ListObjectsRequest, ListObjectsV2Request, ObjectMetadata, PutObjectRequest}
 import com.amazonaws.services.s3.{AmazonS3, AmazonS3Client, AmazonS3ClientBuilder}
 import response.{ErrorResponse, SuccessfulResponse}
 
@@ -27,7 +27,7 @@ class AmazonManager(client: AmazonS3) extends Actor with ActorLogging {
   override def receive: Receive = {
     case GetObject(objectKey) =>
       if (client.doesObjectExist(AmazonS3Config.bucketName, objectKey)) {
-        Try(getObject(objectKey)) match {
+        Try(getObject(objectKey, AmazonS3Config.pathS3, AmazonS3Config.bucketName)) match {
           case Success(_) =>
             sender() ! Right(200, s"Object with key $objectKey successfully downloaded")
           case Failure(_) =>
@@ -36,7 +36,7 @@ class AmazonManager(client: AmazonS3) extends Actor with ActorLogging {
       } else {
         sender() ! Left(404, s"Object does not exist")
       }
-    case CreateObject(filename) => {
+    case CreateObject(filename) =>
       val file = new File(s"${AmazonS3Config.pathS3}/$filename")
       if (file.exists()) {
         val request = new PutObjectRequest(
@@ -54,18 +54,16 @@ class AmazonManager(client: AmazonS3) extends Actor with ActorLogging {
           case Failure(_) =>
             sender() ! Left(ErrorResponse(500, s"Error while uploading object with key $filename"))
         }
-        client.putObject(request)
       } else {
         sender() ! Left(404, s"Object cannot be found")
       }
-    }
   }
 
-  private def getObject(objectKey: String): Unit = {
-    val fullObject = client.getObject(new GetObjectRequest(AmazonS3Config.bucketName, objectKey))
+  private def getObject(objectKey: String, path: String, bucketName: String): Unit = {
+    val fullObject = client.getObject(new GetObjectRequest(bucketName, objectKey))
     val objectStream = fullObject.getObjectContent
 
-    val file = new File(s"${AmazonS3Config.pathS3}/$objectKey")
+    val file = new File(s"$path/$objectKey")
     if (!file.exists()) file.mkdirs()
     file.createNewFile()
 
